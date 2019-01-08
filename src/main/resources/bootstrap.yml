@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: us-auth
+
+server:
+  port: 8000
+  servlet:
+    context-path: /auth
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1000/registry/eureka/
